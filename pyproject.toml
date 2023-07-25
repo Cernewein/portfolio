@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "portfolio"
+version = "0.1.0"
+description = "Flask app that hosts my personal website"
+authors = ["Cédric Ernewein <25933633+Cernewein@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
